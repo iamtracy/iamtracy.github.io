@@ -1,0 +1,26 @@
+body {
+  background: url(../../assets/img/bg-img.png) no-repeat center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video {
+  margin-top: 3rem;
+}
+
+.logo {
+  margin-top: 0.45rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 80px;
+  @include breakpoint(medium) {
+    margin-top: 0.6rem;
+    width: 100%;
+    max-width: 120px;
+  }
+  @include breakpoint(large) {
+    margin-top: 1.65rem;
+    width: 100%;
+    max-width: 160px;
+  }
+}
